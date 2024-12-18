@@ -14,9 +14,9 @@ int main(int argc, char **argv)
   {
     for (int j = 0; j < i + 1; j++)
     {
-      printf("%c", '*');
+      puts("*");
     }
-    printf("\n");
+    puts("");
   }
   return 0;
 }
